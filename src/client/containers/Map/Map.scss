@@ -1,0 +1,5 @@
+@import "./../../../vars";
+
+.map {
+  height: calc(100vh - #{$header-height});
+}

@@ -1,0 +1,80 @@
+@import "./../../../vars";
+
+#root {
+  .app {
+    height: 100%;
+
+    > .menu {
+      background-color: $header-background;
+      border-radius: 0;
+      margin: 0;
+
+      + .pushable {
+        height: calc(100vh - #{$header-height});
+      }
+    }
+  }
+
+  .logo-item {
+    height: $header-height;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    .logo {
+      height: calc(100% - 10px);
+      width: auto !important;
+
+      @include media('<tablet') {
+        height: calc(100% - 20px);
+      }
+    }
+  }
+
+  .picture-logo {
+    height: $header-height;
+    padding: 2px 0;
+
+    @include media('<tablet') {
+      padding: 4px 0;
+    }
+
+    @include media('<mobile') {
+      position: absolute;
+      opacity: .15;
+      right: 0;
+    }
+
+    .picture-img {
+      height: 100%;
+      width: auto !important;
+      margin-right: 20px;
+    }
+  }
+
+  .add-event-item {
+
+    @include media('<tablet') {
+      span {
+        display: none;
+      }
+    }
+
+    @include media('<mobile') {
+      span {
+        display: initial;
+      }
+    }
+  }
+
+  .detached-chat {
+    z-index: 1;
+    background-color: white;
+    max-height: 500px;
+    bottom: 0;
+    top: auto;
+    width: 30%;
+    right: 15px;
+  }
+}

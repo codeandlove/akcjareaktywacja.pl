@@ -1,0 +1,16 @@
+@import "./../../../vars";
+
+#root {
+  .events-list {
+    .items {
+      .item {
+        .description {
+          word-break: break-all;
+        }
+        .extra {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

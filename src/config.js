@@ -1,5 +1,5 @@
 export default {
     app: {
-        enabled: false
+        enabled: true
     }
 }

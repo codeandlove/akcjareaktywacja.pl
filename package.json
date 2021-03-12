@@ -45,7 +45,7 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-async-script": "^0.9.1",
     "react-datepicker": "^1.8.0",
-    "react-dev-utils": "^5.0.3",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-draft-wysiwyg": "^1.13.2",
     "react-dropzone": "^4.3.0",

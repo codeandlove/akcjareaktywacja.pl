@@ -79,7 +79,7 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-router-redux": "^5.0.0-alpha.9",
     "sass-loader": "^6.0.7"
   },
